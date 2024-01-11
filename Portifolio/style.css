@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    background-color: #f7b9ffc0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(244, 94, 252, 0.118);
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.foto_perfil {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixaPrincipal {
+    text-align: center;
+}
+
+.nome, .me, .titulo_redes {
+    color: #b93bb5;
+}
+
+a {
+    color: #b93bb5;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e589f1;
+}

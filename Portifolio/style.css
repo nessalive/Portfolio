@@ -26,6 +26,9 @@ main {
 
 .foto_perfil {
     border-radius: 50%;
+    border-style: dashed;
+    color: #b93bb5;
+    padding: 0.2rem;
     margin-bottom: 20px;
     display: block;
     margin-left: auto;

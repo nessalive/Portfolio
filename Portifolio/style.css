@@ -67,16 +67,14 @@ button {
     margin-bottom: 1rem;
     padding: 0.5rem;
     width: 5rem;
-    border-width: 30px;
-    border: #b93bb5;
-    border-style: dashed;
+    border: 2px dashed #b93bb5
 
 }
 
 button:hover {
     text-decoration: underline;
     color: #e589f1;
-    transform: scale(1.2)
+    transform: scale(1.2);
 }
 
 label {

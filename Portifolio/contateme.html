@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contate-me</title>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <h2>Mande Uma Mensagem</h2>
+            <form>
+                <p>
+                    <label for="name">Nome: </label>
+                    <input required type="text" id="name" placeholder="digite seu nome">
+                </p>
+                <p>
+                    <label>Telefone: </label>
+                    <input required type="tel" placeholder="(81)99999-9999">
+                </p>
+                <p>
+                    <label>E-mail: </label>
+                    <input required type="email" placeholder="teste@gmail.com">
+                </p>
+                <p>
+                    <label for="urgencia">Urgente: </label>
+                    <input type="radio" name="opcao1" id="urgencia" value="opcao1"> Sim
+                    <input type="radio" id="urgencia" name="opcao1" value="opcao2"> Não
+                </p>
+                <p>
+                    <label for="dataContato">Data do contato: </label>
+                    <input type="date" id="dataContato">
+                </p>
+                <!-- O botão de envio tem que está dentro do formm?
+                O "botão" de voltar deve está dentro do form e ser umm 
+                botão ou uma tag <a>?
+                -->
+                <button type="submit">Enviar</button>
+            </form>
+            <a href="index.html">Voltar</a>
+        </div>
+    </main>
+</body>
+</html>

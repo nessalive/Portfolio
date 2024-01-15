@@ -39,7 +39,7 @@ main {
     text-align: center;
 }
 
-.nome, .me, .titulo_redes {
+.nome, p, h2 {
     color: #b93bb5;
 }
 
@@ -52,4 +52,33 @@ a {
 a:hover {
     text-decoration: underline;
     color: #e589f1;
+}
+
+ li {
+    color: #b93bb5;
+    text-align: justify;
+    padding: 0.3rem;
+
+}
+
+button {
+    background-color: #ffffff;
+    color: #b93bb5;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 5rem;
+    border-width: 30px;
+    border: #b93bb5;
+    border-style: dashed;
+
+}
+
+button:hover {
+    text-decoration: underline;
+    color: #e589f1;
+    transform: scale(1.2)
+}
+
+label {
+    font-weight: bold;
 }
